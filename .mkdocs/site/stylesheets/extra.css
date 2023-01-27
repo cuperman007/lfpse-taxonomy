@@ -1,0 +1,29 @@
+img {
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    padding: 8px; 
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 5%), 0 0.025rem 0.05rem rgb(0 0 0 / 5%);
+}
+
+.md-announce {
+    background-color: #00423c;
+}
+
+.md-announce__inner {
+    color: white;
+}
+
+/* control print section headers */
+h1[id^='section-'].nav-section-title::before,
+h1[id^='section-'].nav-section-title a.headerlink {
+    display:none;
+}
+
+h1[id^='section-'].nav-section-title {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+}
+
+h1, h2 {
+    font-weight:500 !important;
+}
