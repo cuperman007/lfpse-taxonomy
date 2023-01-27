@@ -1,6 +1,6 @@
 # Device Type
 
-This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](/v5/code-systems#device-type).
+This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](../../code-systems#device-type).
 
 
  | Code | Display |

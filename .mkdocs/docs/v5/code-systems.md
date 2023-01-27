@@ -1211,7 +1211,7 @@ Code system document for AdverseEvent v5
 
 !!! info "Too many codes to display"
 
-    For the full list go to [ods-codes-5](/v5/code-systems/ods-codes)
+    For the full list go to [ods-codes-5](../code-systems/ods-codes)
 
 
 
@@ -1247,7 +1247,7 @@ Code system document for AdverseEvent v5
 
 !!! info "Too many codes to display"
 
-    For the full list go to [specialty-5](/v5/code-systems/specialty)
+    For the full list go to [specialty-5](../code-systems/specialty)
 
 
 
@@ -1348,7 +1348,7 @@ Code system document for AdverseEvent v5
 
 !!! info "Too many codes to display"
 
-    For the full list go to [device-type-5](/v5/code-systems/device-type)
+    For the full list go to [device-type-5](../code-systems/device-type)
 
 
 

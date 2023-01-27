@@ -76,7 +76,7 @@ class Program
                     var sbLongCodeSystem = new StringBuilder();
                     sbLongCodeSystem.AppendLine($"# {codeSystem.Value.Name}");
                     sbLongCodeSystem.AppendLine($"");
-                    sbLongCodeSystem.AppendLine($"This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](/v{version}/code-systems#{GetPathAnchor(codeSystem.Value.Name)}).");
+                    sbLongCodeSystem.AppendLine($"This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](../../code-systems#{GetPathAnchor(codeSystem.Value.Name)}).");
                     sbLongCodeSystem.AppendLine($"");
                     sbLongCodeSystem.AppendLine(codeSystem.Value.Table);
                     sbLongCodeSystem.AppendLine($"");
@@ -84,7 +84,7 @@ class Program
                     Directory.CreateDirectory($"D:\\dev\\fhir\\firely-test\\.mkdocs\\docs\\v{version}\\code-systems");
                     File.WriteAllText($"D:\\dev\\fhir\\firely-test\\.mkdocs\\docs\\v{version}\\code-systems\\{GetPathAnchor(codeSystem.Value.Name)}.md", sbLongCodeSystem.ToString());
 
-                    _sbCodeSystems.AppendLine(CreateAdmonition("info", $"For the full list go to [{codeSystem.Key}](/v{version}/code-systems/{GetPathAnchor(codeSystem.Value.Name)})", $"Too many codes to display"));
+                    _sbCodeSystems.AppendLine(CreateAdmonition("info", $"For the full list go to [{codeSystem.Key}](../code-systems/{GetPathAnchor(codeSystem.Value.Name)})", $"Too many codes to display"));
                     _sbCodeSystems.AppendLine($"");
                 }
                 else // write the table to this page
@@ -247,7 +247,7 @@ class Program
 
         var version = GetVersion(profileUri);
 
-        _sbAdverseEvent.AppendLine($"The code system options for [{profile.Description}](/v{version}/code-systems/#{GetPathAnchor(profile.Description.ToString())}) are: ");
+        _sbAdverseEvent.AppendLine($"The code system options for [{profile.Description}](../code-systems/#{GetPathAnchor(profile.Description.ToString())}) are: ");
         _sbAdverseEvent.AppendLine($"");
 
         var sbCodeSystem = new StringBuilder();
@@ -317,7 +317,7 @@ class Program
                 _colorify.WriteLine($"{new String(' ', count)}   - ... additional lines hidden for brevity", Colors.txtWarning);
                 sbShortTable.AppendLine($"| ... | ... |");
                 sbShortTable.AppendLine($"");
-                sbShortTable.AppendLine(CreateAdmonition("info", $"For full list go to [{profile.Id}](/v{version}/code-systems/{GetPathAnchor(profile.Description.ToString())})", $"Displaying 10 of {profile.Count}"));
+                sbShortTable.AppendLine(CreateAdmonition("info", $"For full list go to [{profile.Id}](../code-systems/{GetPathAnchor(profile.Description.ToString())})", $"Displaying 10 of {profile.Count}"));
                 sbShortTable.AppendLine($"");
             }
 

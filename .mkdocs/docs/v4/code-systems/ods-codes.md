@@ -1,6 +1,6 @@
 # ODS Codes
 
-This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](/v4/code-systems#ods-codes).
+This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](../../code-systems#ods-codes).
 
 
  | Code | Display |

@@ -36,7 +36,7 @@ Desc: Information about the estimated date/time of the event
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4)
 
-The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unknown-codes) are: 
+The code system options for [Yes-No-Unknown Codes](../code-systems/#yes-no-unknown-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -70,7 +70,7 @@ The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unkn
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/time-of-incident-brackets-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/time-of-incident-brackets-4)
 
-The code system options for [Time of Incident Brackets](/v4/code-systems/#time-of-incident-brackets) are: 
+The code system options for [Time of Incident Brackets](../code-systems/#time-of-incident-brackets) are: 
 
  | Code | Display |
  | --- | --- |
@@ -137,7 +137,7 @@ Desc: Information about the problem that occurred
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yellow-card-criteria-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yellow-card-criteria-4)
 
-The code system options for [Criteria which would indicate whether an event is a yellow card incident](/v4/code-systems/#criteria-which-would-indicate-whether-an-event-is-a-yellow-card-incident) are: 
+The code system options for [Criteria which would indicate whether an event is a yellow card incident](../code-systems/#criteria-which-would-indicate-whether-an-event-is-a-yellow-card-incident) are: 
 
  | Code | Display |
  | --- | --- |
@@ -188,7 +188,7 @@ The code system options for [Criteria which would indicate whether an event is a
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-involvement-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-involvement-4)
 
-The code system options for [People Involvement](/v4/code-systems/#people-involvement) are: 
+The code system options for [People Involvement](../code-systems/#people-involvement) are: 
 
  | Code | Display |
  | --- | --- |
@@ -212,7 +212,7 @@ The code system options for [People Involvement](/v4/code-systems/#people-involv
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-actions-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-actions-4)
 
-The code system options for [People Actions](/v4/code-systems/#people-actions) are: 
+The code system options for [People Actions](../code-systems/#people-actions) are: 
 
  | Code | Display |
  | --- | --- |
@@ -237,7 +237,7 @@ The code system options for [People Actions](/v4/code-systems/#people-actions) a
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/devices-involved-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/devices-involved-4)
 
-The code system options for [Devices involved](/v4/code-systems/#devices-involved) are: 
+The code system options for [Devices involved](../code-systems/#devices-involved) are: 
 
  | Code | Display |
  | --- | --- |
@@ -263,7 +263,7 @@ The code system options for [Devices involved](/v4/code-systems/#devices-involve
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/drugs-involved-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/drugs-involved-4)
 
-The code system options for [Drugs involved](/v4/code-systems/#drugs-involved) are: 
+The code system options for [Drugs involved](../code-systems/#drugs-involved) are: 
 
  | Code | Display |
  | --- | --- |
@@ -288,7 +288,7 @@ The code system options for [Drugs involved](/v4/code-systems/#drugs-involved) a
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/furniture-fittings-involved-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/furniture-fittings-involved-4)
 
-The code system options for [Furniture fittings involved](/v4/code-systems/#furniture-fittings-involved) are: 
+The code system options for [Furniture fittings involved](../code-systems/#furniture-fittings-involved) are: 
 
  | Code | Display |
  | --- | --- |
@@ -313,7 +313,7 @@ The code system options for [Furniture fittings involved](/v4/code-systems/#furn
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/built-environment-involved-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/built-environment-involved-4)
 
-The code system options for [Built environment involved](/v4/code-systems/#built-environment-involved) are: 
+The code system options for [Built environment involved](../code-systems/#built-environment-involved) are: 
 
  | Code | Display |
  | --- | --- |
@@ -338,7 +338,7 @@ The code system options for [Built environment involved](/v4/code-systems/#built
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/blood-and-blood-products-involved-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/blood-and-blood-products-involved-4)
 
-The code system options for [Blood and blood products involved](/v4/code-systems/#blood-and-blood-products-involved) are: 
+The code system options for [Blood and blood products involved](../code-systems/#blood-and-blood-products-involved) are: 
 
  | Code | Display |
  | --- | --- |
@@ -364,7 +364,7 @@ The code system options for [Blood and blood products involved](/v4/code-systems
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/tissue-and-organs-for-transplant-involved-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/tissue-and-organs-for-transplant-involved-4)
 
-The code system options for [Tissue and organs for transplant involved](/v4/code-systems/#tissue-and-organs-for-transplant-involved) are: 
+The code system options for [Tissue and organs for transplant involved](../code-systems/#tissue-and-organs-for-transplant-involved) are: 
 
  | Code | Display |
  | --- | --- |
@@ -390,7 +390,7 @@ The code system options for [Tissue and organs for transplant involved](/v4/code
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/it-systems-and-software-involved-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/it-systems-and-software-involved-4)
 
-The code system options for [IT systems and software involved](/v4/code-systems/#it-systems-and-software-involved) are: 
+The code system options for [IT systems and software involved](../code-systems/#it-systems-and-software-involved) are: 
 
  | Code | Display |
  | --- | --- |
@@ -416,7 +416,7 @@ The code system options for [IT systems and software involved](/v4/code-systems/
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-action-too-much-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-action-too-much-4)
 
-The code system options for [People action too much](/v4/code-systems/#people-action-too-much) are: 
+The code system options for [People action too much](../code-systems/#people-action-too-much) are: 
 
  | Code | Display |
  | --- | --- |
@@ -440,7 +440,7 @@ The code system options for [People action too much](/v4/code-systems/#people-ac
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-used-unnecessarily-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-used-unnecessarily-4)
 
-The code system options for [Device used unnecessarily](/v4/code-systems/#device-used-unnecessarily) are: 
+The code system options for [Device used unnecessarily](../code-systems/#device-used-unnecessarily) are: 
 
  | Code | Display |
  | --- | --- |
@@ -464,7 +464,7 @@ The code system options for [Device used unnecessarily](/v4/code-systems/#device
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-much-drug-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-much-drug-4)
 
-The code system options for [Too much drug](/v4/code-systems/#too-much-drug) are: 
+The code system options for [Too much drug](../code-systems/#too-much-drug) are: 
 
  | Code | Display |
  | --- | --- |
@@ -489,7 +489,7 @@ The code system options for [Too much drug](/v4/code-systems/#too-much-drug) are
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-much-blood-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-much-blood-4)
 
-The code system options for [Too much blood](/v4/code-systems/#too-much-blood) are: 
+The code system options for [Too much blood](../code-systems/#too-much-blood) are: 
 
  | Code | Display |
  | --- | --- |
@@ -513,7 +513,7 @@ The code system options for [Too much blood](/v4/code-systems/#too-much-blood) a
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-much-tissue-and-organs-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-much-tissue-and-organs-4)
 
-The code system options for [Too much tissue and organs](/v4/code-systems/#too-much-tissue-and-organs) are: 
+The code system options for [Too much tissue and organs](../code-systems/#too-much-tissue-and-organs) are: 
 
  | Code | Display |
  | --- | --- |
@@ -535,7 +535,7 @@ The code system options for [Too much tissue and organs](/v4/code-systems/#too-m
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-unavailable-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-unavailable-4)
 
-The code system options for [People unavailable](/v4/code-systems/#people-unavailable) are: 
+The code system options for [People unavailable](../code-systems/#people-unavailable) are: 
 
  | Code | Display |
  | --- | --- |
@@ -557,7 +557,7 @@ The code system options for [People unavailable](/v4/code-systems/#people-unavai
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-not-enough-action-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-not-enough-action-4)
 
-The code system options for [People not enough action](/v4/code-systems/#people-not-enough-action) are: 
+The code system options for [People not enough action](../code-systems/#people-not-enough-action) are: 
 
  | Code | Display |
  | --- | --- |
@@ -581,7 +581,7 @@ The code system options for [People not enough action](/v4/code-systems/#people-
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/devices-insufficient-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/devices-insufficient-4)
 
-The code system options for [Devices insufficient](/v4/code-systems/#devices-insufficient) are: 
+The code system options for [Devices insufficient](../code-systems/#devices-insufficient) are: 
 
  | Code | Display |
  | --- | --- |
@@ -605,7 +605,7 @@ The code system options for [Devices insufficient](/v4/code-systems/#devices-ins
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-little-drug-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-little-drug-4)
 
-The code system options for [Too little drug](/v4/code-systems/#too-little-drug) are: 
+The code system options for [Too little drug](../code-systems/#too-little-drug) are: 
 
  | Code | Display |
  | --- | --- |
@@ -630,7 +630,7 @@ The code system options for [Too little drug](/v4/code-systems/#too-little-drug)
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-little-blood-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/too-little-blood-4)
 
-The code system options for [Too little blood](/v4/code-systems/#too-little-blood) are: 
+The code system options for [Too little blood](../code-systems/#too-little-blood) are: 
 
  | Code | Display |
  | --- | --- |
@@ -653,7 +653,7 @@ The code system options for [Too little blood](/v4/code-systems/#too-little-bloo
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/way-insufficient-tissues-or-organs-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/way-insufficient-tissues-or-organs-4)
 
-The code system options for [Way insufficient tissues or organs](/v4/code-systems/#way-insufficient-tissues-or-organs) are: 
+The code system options for [Way insufficient tissues or organs](../code-systems/#way-insufficient-tissues-or-organs) are: 
 
  | Code | Display |
  | --- | --- |
@@ -674,7 +674,7 @@ The code system options for [Way insufficient tissues or organs](/v4/code-system
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/incorrect-people-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/incorrect-people-4)
 
-The code system options for [Incorrect people](/v4/code-systems/#incorrect-people) are: 
+The code system options for [Incorrect people](../code-systems/#incorrect-people) are: 
 
  | Code | Display |
  | --- | --- |
@@ -696,7 +696,7 @@ The code system options for [Incorrect people](/v4/code-systems/#incorrect-peopl
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-wrong-action-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-wrong-action-4)
 
-The code system options for [People wrong action](/v4/code-systems/#people-wrong-action) are: 
+The code system options for [People wrong action](../code-systems/#people-wrong-action) are: 
 
  | Code | Display |
  | --- | --- |
@@ -718,7 +718,7 @@ The code system options for [People wrong action](/v4/code-systems/#people-wrong
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-used-wrongly-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-used-wrongly-4)
 
-The code system options for [Device used wrongly](/v4/code-systems/#device-used-wrongly) are: 
+The code system options for [Device used wrongly](../code-systems/#device-used-wrongly) are: 
 
  | Code | Display |
  | --- | --- |
@@ -742,7 +742,7 @@ The code system options for [Device used wrongly](/v4/code-systems/#device-used-
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/wrong-drug-used-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/wrong-drug-used-4)
 
-The code system options for [Wrong drug used](/v4/code-systems/#wrong-drug-used) are: 
+The code system options for [Wrong drug used](../code-systems/#wrong-drug-used) are: 
 
  | Code | Display |
  | --- | --- |
@@ -764,7 +764,7 @@ The code system options for [Wrong drug used](/v4/code-systems/#wrong-drug-used)
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/wrong-furniture-or-fittings-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/wrong-furniture-or-fittings-4)
 
-The code system options for [Wrong furniture or fittings](/v4/code-systems/#wrong-furniture-or-fittings) are: 
+The code system options for [Wrong furniture or fittings](../code-systems/#wrong-furniture-or-fittings) are: 
 
  | Code | Display |
  | --- | --- |
@@ -786,7 +786,7 @@ The code system options for [Wrong furniture or fittings](/v4/code-systems/#wron
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/wrong-blood-or-blood-products-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/wrong-blood-or-blood-products-4)
 
-The code system options for [Wrong blood or blood products](/v4/code-systems/#wrong-blood-or-blood-products) are: 
+The code system options for [Wrong blood or blood products](../code-systems/#wrong-blood-or-blood-products) are: 
 
  | Code | Display |
  | --- | --- |
@@ -810,7 +810,7 @@ The code system options for [Wrong blood or blood products](/v4/code-systems/#wr
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/incorrect-tissues-or-organs-for-transplant-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/incorrect-tissues-or-organs-for-transplant-4)
 
-The code system options for [Incorrect tissues or organs for transplant](/v4/code-systems/#incorrect-tissues-or-organs-for-transplant) are: 
+The code system options for [Incorrect tissues or organs for transplant](../code-systems/#incorrect-tissues-or-organs-for-transplant) are: 
 
  | Code | Display |
  | --- | --- |
@@ -834,7 +834,7 @@ The code system options for [Incorrect tissues or organs for transplant](/v4/cod
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/not-correct-people-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/not-correct-people-4)
 
-The code system options for [Not correct people](/v4/code-systems/#not-correct-people) are: 
+The code system options for [Not correct people](../code-systems/#not-correct-people) are: 
 
  | Code | Display |
  | --- | --- |
@@ -855,7 +855,7 @@ The code system options for [Not correct people](/v4/code-systems/#not-correct-p
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-did-not-do-something-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/people-did-not-do-something-4)
 
-The code system options for [People did not do something](/v4/code-systems/#people-did-not-do-something) are: 
+The code system options for [People did not do something](../code-systems/#people-did-not-do-something) are: 
 
  | Code | Display |
  | --- | --- |
@@ -876,7 +876,7 @@ The code system options for [People did not do something](/v4/code-systems/#peop
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/right-drug-not-used-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/right-drug-not-used-4)
 
-The code system options for [Right drug not used](/v4/code-systems/#right-drug-not-used) are: 
+The code system options for [Right drug not used](../code-systems/#right-drug-not-used) are: 
 
  | Code | Display |
  | --- | --- |
@@ -897,7 +897,7 @@ The code system options for [Right drug not used](/v4/code-systems/#right-drug-n
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-broken-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-broken-4)
 
-The code system options for [Indication of how a device was broken](/v4/code-systems/#indication-of-how-a-device-was-broken) are: 
+The code system options for [Indication of how a device was broken](../code-systems/#indication-of-how-a-device-was-broken) are: 
 
  | Code | Display |
  | --- | --- |
@@ -926,7 +926,7 @@ The code system options for [Indication of how a device was broken](/v4/code-sys
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/broken-furniture-or-fittings-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/broken-furniture-or-fittings-4)
 
-The code system options for [Broken furniture or fittings](/v4/code-systems/#broken-furniture-or-fittings) are: 
+The code system options for [Broken furniture or fittings](../code-systems/#broken-furniture-or-fittings) are: 
 
  | Code | Display |
  | --- | --- |
@@ -951,7 +951,7 @@ The code system options for [Broken furniture or fittings](/v4/code-systems/#bro
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/damaged-blood-or-blood-products-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/damaged-blood-or-blood-products-4)
 
-The code system options for [Damaged blood or blood products](/v4/code-systems/#damaged-blood-or-blood-products) are: 
+The code system options for [Damaged blood or blood products](../code-systems/#damaged-blood-or-blood-products) are: 
 
  | Code | Display |
  | --- | --- |
@@ -972,7 +972,7 @@ The code system options for [Damaged blood or blood products](/v4/code-systems/#
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/damaged-tissues-or-organs-from-transplant-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/damaged-tissues-or-organs-from-transplant-4)
 
-The code system options for [Damaged tissues or organs from transplant](/v4/code-systems/#damaged-tissues-or-organs-from-transplant) are: 
+The code system options for [Damaged tissues or organs from transplant](../code-systems/#damaged-tissues-or-organs-from-transplant) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1093,7 +1093,7 @@ The code system options for [Damaged tissues or organs from transplant](/v4/code
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/blood-not-used-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/blood-not-used-4)
 
-The code system options for [Reasons for blood or blood products not being used](/v4/code-systems/#reasons-for-blood-or-blood-products-not-being-used) are: 
+The code system options for [Reasons for blood or blood products not being used](../code-systems/#reasons-for-blood-or-blood-products-not-being-used) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1114,7 +1114,7 @@ The code system options for [Reasons for blood or blood products not being used]
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/blood-products-problem-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/blood-products-problem-4)
 
-The code system options for [What was wrong with the blood or blood products](/v4/code-systems/#what-was-wrong-with-the-blood-or-blood-products) are: 
+The code system options for [What was wrong with the blood or blood products](../code-systems/#what-was-wrong-with-the-blood-or-blood-products) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1140,7 +1140,7 @@ The code system options for [What was wrong with the blood or blood products](/v
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/tissue-organs-not-used-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/tissue-organs-not-used-4)
 
-The code system options for [Reasons for tissue or organs not being used when they should have been](/v4/code-systems/#reasons-for-tissue-or-organs-not-being-used-when-they-should-have-been) are: 
+The code system options for [Reasons for tissue or organs not being used when they should have been](../code-systems/#reasons-for-tissue-or-organs-not-being-used-when-they-should-have-been) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1161,7 +1161,7 @@ The code system options for [Reasons for tissue or organs not being used when th
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/furniture-fittings-not-used-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/furniture-fittings-not-used-4)
 
-The code system options for [Reasons for correct furniture and fittings not being used](/v4/code-systems/#reasons-for-correct-furniture-and-fittings-not-being-used) are: 
+The code system options for [Reasons for correct furniture and fittings not being used](../code-systems/#reasons-for-correct-furniture-and-fittings-not-being-used) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1182,7 +1182,7 @@ The code system options for [Reasons for correct furniture and fittings not bein
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/involved-processes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/involved-processes-4)
 
-The code system options for [Processes involved in what went wrong](/v4/code-systems/#processes-involved-in-what-went-wrong) are: 
+The code system options for [Processes involved in what went wrong](../code-systems/#processes-involved-in-what-went-wrong) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1218,7 +1218,7 @@ The code system options for [Processes involved in what went wrong](/v4/code-sys
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/medication-administered-incorrectly-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/medication-administered-incorrectly-4)
 
-The code system options for [The reasons for medication not being prescribed or given in the right way](/v4/code-systems/#the-reasons-for-medication-not-being-prescribed-or-given-in-the-right-way) are: 
+The code system options for [The reasons for medication not being prescribed or given in the right way](../code-systems/#the-reasons-for-medication-not-being-prescribed-or-given-in-the-right-way) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1245,7 +1245,7 @@ The code system options for [The reasons for medication not being prescribed or 
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/problem-medication-or-packaging-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/problem-medication-or-packaging-4)
 
-The code system options for [What was the problem with medication or its packaging](/v4/code-systems/#what-was-the-problem-with-medication-or-its-packaging) are: 
+The code system options for [What was the problem with medication or its packaging](../code-systems/#what-was-the-problem-with-medication-or-its-packaging) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1285,7 +1285,7 @@ Desc: The people and or things involved in the incident
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/agent-type-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/agent-type-4)
 
-The code system options for [Agent Type](/v4/code-systems/#agent-type) are: 
+The code system options for [Agent Type](../code-systems/#agent-type) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1324,7 +1324,7 @@ The code system options for [Agent Type](/v4/code-systems/#agent-type) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/furniture-and-fittings-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/furniture-and-fittings-4)
 
-The code system options for [Furniture and Fittings](/v4/code-systems/#furniture-and-fittings) are: 
+The code system options for [Furniture and Fittings](../code-systems/#furniture-and-fittings) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1342,7 +1342,7 @@ The code system options for [Furniture and Fittings](/v4/code-systems/#furniture
 
 !!! info "Displaying 10 of 11"
 
-    For full list go to [furniture-and-fittings-4](/v4/code-systems/furniture-and-fittings)
+    For full list go to [furniture-and-fittings-4](../code-systems/furniture-and-fittings)
 
 
 
@@ -1385,7 +1385,7 @@ The code system options for [Furniture and Fittings](/v4/code-systems/#furniture
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/human-agents-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/human-agents-4)
 
-The code system options for [Human Agents](/v4/code-systems/#human-agents) are: 
+The code system options for [Human Agents](../code-systems/#human-agents) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1451,7 +1451,7 @@ Desc: The outcome of the event
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/outcome-type-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/outcome-type-4)
 
-The code system options for [The type of outcome being reported](/v4/code-systems/#the-type-of-outcome-being-reported) are: 
+The code system options for [The type of outcome being reported](../code-systems/#the-type-of-outcome-being-reported) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1509,7 +1509,7 @@ Desc: Details on reporter's initial assessment of the event, cause or factors co
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4)
 
-The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unknown-codes) are: 
+The code system options for [Yes-No-Unknown Codes](../code-systems/#yes-no-unknown-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1549,7 +1549,7 @@ Desc: Details about the adverse event process
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/healthcare-process-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/healthcare-process-4)
 
-The code system options for [Healthcare Process](/v4/code-systems/#healthcare-process) are: 
+The code system options for [Healthcare Process](../code-systems/#healthcare-process) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1567,7 +1567,7 @@ The code system options for [Healthcare Process](/v4/code-systems/#healthcare-pr
 
 !!! info "Displaying 10 of 12"
 
-    For full list go to [healthcare-process-4](/v4/code-systems/healthcare-process)
+    For full list go to [healthcare-process-4](../code-systems/healthcare-process)
 
 
 
@@ -1616,7 +1616,7 @@ Desc: Further details about a risk
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/risk-themes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/risk-themes-4)
 
-The code system options for [Risk Themes](/v4/code-systems/#risk-themes) are: 
+The code system options for [Risk Themes](../code-systems/#risk-themes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1655,7 +1655,7 @@ The code system options for [Risk Themes](/v4/code-systems/#risk-themes) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4)
 
-The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unknown-codes) are: 
+The code system options for [Yes-No-Unknown Codes](../code-systems/#yes-no-unknown-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1677,7 +1677,7 @@ The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unkn
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/service-type-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/service-type-4)
 
-The code system options for [Service Type](/v4/code-systems/#service-type) are: 
+The code system options for [Service Type](../code-systems/#service-type) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1695,7 +1695,7 @@ The code system options for [Service Type](/v4/code-systems/#service-type) are:
 
 !!! info "Displaying 10 of 15"
 
-    For full list go to [service-type-4](/v4/code-systems/service-type)
+    For full list go to [service-type-4](../code-systems/service-type)
 
 
 
@@ -1726,7 +1726,7 @@ The code system options for [Service Type](/v4/code-systems/#service-type) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/risk-timeframes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/risk-timeframes-4)
 
-The code system options for [Risk Timeframes](/v4/code-systems/#risk-timeframes) are: 
+The code system options for [Risk Timeframes](../code-systems/#risk-timeframes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1803,7 +1803,7 @@ Desc: Details of an event where patient safety went well
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/reporter-relationship-to-event-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/reporter-relationship-to-event-4)
 
-The code system options for [Reporter relationship to event](/v4/code-systems/#reporter-relationship-to-event) are: 
+The code system options for [Reporter relationship to event](../code-systems/#reporter-relationship-to-event) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1858,7 +1858,7 @@ Desc: Factors involved in detection of a problem in care provision
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/detection-factors-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/detection-factors-4)
 
-The code system options for [Detection Factors](/v4/code-systems/#detection-factors) are: 
+The code system options for [Detection Factors](../code-systems/#detection-factors) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1876,7 +1876,7 @@ The code system options for [Detection Factors](/v4/code-systems/#detection-fact
 
 !!! info "Displaying 10 of 28"
 
-    For full list go to [detection-factors-4](/v4/code-systems/detection-factors)
+    For full list go to [detection-factors-4](../code-systems/detection-factors)
 
 
 
@@ -1895,7 +1895,7 @@ The code system options for [Detection Factors](/v4/code-systems/#detection-fact
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/detection-points-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/detection-points-4)
 
-The code system options for [Detection Factors](/v4/code-systems/#detection-factors) are: 
+The code system options for [Detection Factors](../code-systems/#detection-factors) are: 
 
  | Code | Display |
  | --- | --- |
@@ -1952,7 +1952,7 @@ Desc: Classification details of an adverse event for reporting purposes
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/worry-scale-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/worry-scale-4)
 
-The code system options for [Worry Scale](/v4/code-systems/#worry-scale) are: 
+The code system options for [Worry Scale](../code-systems/#worry-scale) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2071,7 +2071,7 @@ Desc: Details on safety challenges involved or contributing to the event occurri
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/safety-challenges-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/safety-challenges-4)
 
-The code system options for [List of safety challenges](/v4/code-systems/#list-of-safety-challenges) are: 
+The code system options for [List of safety challenges](../code-systems/#list-of-safety-challenges) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2135,7 +2135,7 @@ Desc: A collection of patient details relevant to adverse events
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/level-of-physical-harm-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/level-of-physical-harm-4)
 
-The code system options for [Level of Physical Harm](/v4/code-systems/#level-of-physical-harm) are: 
+The code system options for [Level of Physical Harm](../code-systems/#level-of-physical-harm) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2159,7 +2159,7 @@ The code system options for [Level of Physical Harm](/v4/code-systems/#level-of-
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/level-of-psychological-harm-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/level-of-psychological-harm-4)
 
-The code system options for [Level of Psychological Harm](/v4/code-systems/#level-of-psychological-harm) are: 
+The code system options for [Level of Psychological Harm](../code-systems/#level-of-psychological-harm) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2206,7 +2206,7 @@ The code system options for [Level of Psychological Harm](/v4/code-systems/#leve
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/age-brackets-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/age-brackets-4)
 
-The code system options for [Age Brackets](/v4/code-systems/#age-brackets) are: 
+The code system options for [Age Brackets](../code-systems/#age-brackets) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2224,7 +2224,7 @@ The code system options for [Age Brackets](/v4/code-systems/#age-brackets) are:
 
 !!! info "Displaying 10 of 12"
 
-    For full list go to [age-brackets-4](/v4/code-systems/age-brackets)
+    For full list go to [age-brackets-4](../code-systems/age-brackets)
 
 
 
@@ -2243,7 +2243,7 @@ The code system options for [Age Brackets](/v4/code-systems/#age-brackets) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/gender-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/gender-4)
 
-The code system options for [The gender of a person used for administrative purposes](/v4/code-systems/#the-gender-of-a-person-used-for-administrative-purposes) are: 
+The code system options for [The gender of a person used for administrative purposes](../code-systems/#the-gender-of-a-person-used-for-administrative-purposes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2278,7 +2278,7 @@ The code system options for [The gender of a person used for administrative purp
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/strength-of-association-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/strength-of-association-4)
 
-The code system options for [Strength of Association](/v4/code-systems/#strength-of-association) are: 
+The code system options for [Strength of Association](../code-systems/#strength-of-association) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2448,7 +2448,7 @@ Desc: Further details about an adverse event location
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4)
 
-The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unknown-codes) are: 
+The code system options for [Yes-No-Unknown Codes](../code-systems/#yes-no-unknown-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2470,7 +2470,7 @@ The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unkn
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/ods-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/ods-codes-4)
 
-The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are: 
+The code system options for [ODS Codes](../code-systems/#ods-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2488,7 +2488,7 @@ The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are:
 
 !!! info "Displaying 10 of 16496"
 
-    For full list go to [ods-codes-4](/v4/code-systems/ods-codes)
+    For full list go to [ods-codes-4](../code-systems/ods-codes)
 
 
 
@@ -2519,7 +2519,7 @@ The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/service-type-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/service-type-4)
 
-The code system options for [Service Type](/v4/code-systems/#service-type) are: 
+The code system options for [Service Type](../code-systems/#service-type) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2537,7 +2537,7 @@ The code system options for [Service Type](/v4/code-systems/#service-type) are:
 
 !!! info "Displaying 10 of 15"
 
-    For full list go to [service-type-4](/v4/code-systems/service-type)
+    For full list go to [service-type-4](../code-systems/service-type)
 
 
 
@@ -2556,7 +2556,7 @@ The code system options for [Service Type](/v4/code-systems/#service-type) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/incident-location-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/incident-location-4)
 
-The code system options for [Incident Location](/v4/code-systems/#incident-location) are: 
+The code system options for [Incident Location](../code-systems/#incident-location) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2584,7 +2584,7 @@ The code system options for [Incident Location](/v4/code-systems/#incident-locat
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/specialty-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/specialty-4)
 
-The code system options for [Specialty](/v4/code-systems/#specialty) are: 
+The code system options for [Specialty](../code-systems/#specialty) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2602,7 +2602,7 @@ The code system options for [Specialty](/v4/code-systems/#specialty) are:
 
 !!! info "Displaying 10 of 101"
 
-    For full list go to [specialty-4](/v4/code-systems/specialty)
+    For full list go to [specialty-4](../code-systems/specialty)
 
 
 
@@ -2633,7 +2633,7 @@ The code system options for [Specialty](/v4/code-systems/#specialty) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/ods-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/ods-codes-4)
 
-The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are: 
+The code system options for [ODS Codes](../code-systems/#ods-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2651,7 +2651,7 @@ The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are:
 
 !!! info "Displaying 10 of 16496"
 
-    For full list go to [ods-codes-4](/v4/code-systems/ods-codes)
+    For full list go to [ods-codes-4](../code-systems/ods-codes)
 
 
 
@@ -2682,7 +2682,7 @@ The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/risk-location-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/risk-location-4)
 
-The code system options for [Risk location](/v4/code-systems/#risk-location) are: 
+The code system options for [Risk location](../code-systems/#risk-location) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2705,7 +2705,7 @@ The code system options for [Risk location](/v4/code-systems/#risk-location) are
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/location-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/location-4)
 
-The code system options for [Location](/v4/code-systems/#location) are: 
+The code system options for [Location](../code-systems/#location) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2805,7 +2805,7 @@ Desc: Information about the practitioner that reported an adverse event
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/reporter-type-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/reporter-type-4)
 
-The code system options for [Reporter Type](/v4/code-systems/#reporter-type) are: 
+The code system options for [Reporter Type](../code-systems/#reporter-type) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2841,7 +2841,7 @@ The code system options for [Reporter Type](/v4/code-systems/#reporter-type) are
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/staff-type-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/staff-type-4)
 
-The code system options for [Staff type](/v4/code-systems/#staff-type) are: 
+The code system options for [Staff type](../code-systems/#staff-type) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2881,7 +2881,7 @@ The code system options for [Staff type](/v4/code-systems/#staff-type) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/reporter-relationship-to-event-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/reporter-relationship-to-event-4)
 
-The code system options for [Reporter relationship to event](/v4/code-systems/#reporter-relationship-to-event) are: 
+The code system options for [Reporter relationship to event](../code-systems/#reporter-relationship-to-event) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2930,7 +2930,7 @@ The code system options for [Reporter relationship to event](/v4/code-systems/#r
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/ods-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/ods-codes-4)
 
-The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are: 
+The code system options for [ODS Codes](../code-systems/#ods-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -2948,7 +2948,7 @@ The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are:
 
 !!! info "Displaying 10 of 16496"
 
-    For full list go to [ods-codes-4](/v4/code-systems/ods-codes)
+    For full list go to [ods-codes-4](../code-systems/ods-codes)
 
 
 
@@ -2979,7 +2979,7 @@ The code system options for [ODS Codes](/v4/code-systems/#ods-codes) are:
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/anonymity-reasons-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/anonymity-reasons-4)
 
-The code system options for [Reasons for recording the event anonymously](/v4/code-systems/#reasons-for-recording-the-event-anonymously) are: 
+The code system options for [Reasons for recording the event anonymously](../code-systems/#reasons-for-recording-the-event-anonymously) are: 
 
  | Code | Display |
  | --- | --- |
@@ -3096,7 +3096,7 @@ Desc: Information on the delivery of a medication
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/yes-no-unknown-codes-4)
 
-The code system options for [Yes-No-Unknown Codes](/v4/code-systems/#yes-no-unknown-codes) are: 
+The code system options for [Yes-No-Unknown Codes](../code-systems/#yes-no-unknown-codes) are: 
 
  | Code | Display |
  | --- | --- |
@@ -3229,7 +3229,7 @@ Desc: Further details about a device which is related to an adverse event
 
 - Value set Url: [https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-type-4](https://psims-uat.azure-api.net/taxonomy/fhir/ValueSet/device-type-4)
 
-The code system options for [Device Type](/v4/code-systems/#device-type) are: 
+The code system options for [Device Type](../code-systems/#device-type) are: 
 
  | Code | Display |
  | --- | --- |
@@ -3247,7 +3247,7 @@ The code system options for [Device Type](/v4/code-systems/#device-type) are:
 
 !!! info "Displaying 10 of 88"
 
-    For full list go to [device-type-4](/v4/code-systems/device-type)
+    For full list go to [device-type-4](../code-systems/device-type)
 
 
 

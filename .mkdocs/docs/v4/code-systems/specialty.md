@@ -1,6 +1,6 @@
 # Specialty
 
-This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](/v4/code-systems#specialty).
+This code system has a lot of items, so has been extracted to its own page. The grouped record is [here](../../code-systems#specialty).
 
 
  | Code | Display |
