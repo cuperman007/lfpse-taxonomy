@@ -1,0 +1,3963 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Details for the NHS LFPSE taaxonomy" name="description"/>
+<meta content="Mark Cooper" name="author"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-7.3.4" name="generator"/>
+<title>Code systems - NHS LFPSE Taxonomy - DRAFT</title>
+<link href="../../assets/stylesheets/main.db9e7362.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.3f5d1f46.min.css" rel="stylesheet"/>
+<meta content="#009485" name="theme-color"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+<link href="../../css/print-site.css" rel="stylesheet"/>
+<link href="../../css/print-site-material.css" rel="stylesheet"/>
+<link href="../../stylesheets/extra.css" rel="stylesheet"/>
+</head>
+<body data-md-color-accent="" data-md-color-primary="teal" data-md-color-scheme="" dir="ltr">
+<script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#yes-no-unknown-codes">2.1 
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+<aside class="md-banner md-announce">
+<div class="md-banner__inner md-announce__inner md-grid md-typeset">
+<div><strong>NOTE:</strong> The NHS API is currently running at v4 (STU3) but may be upgraded at any time. </div>
+</div>
+</aside>
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="NHS LFPSE Taxonomy - DRAFT" class="md-header__button md-logo" data-md-component="logo" href="../.." title="NHS LFPSE Taxonomy - DRAFT">
+<svg enable-background="new 0 0 24 24" fill="#000000" height="24px" viewbox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg"><g><rect fill="none" height="24" width="24"></rect></g><g><g></g><g><path d="M17,19.22H5V7h7V5H5C3.9,5,3,5.9,3,7v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-7h-2V19.22z"></path><path d="M19,2h-2v3h-3c0.01,0.01,0,2,0,2h3v2.99c0.01,0.01,2,0,2,0V7h3V5h-3V2z"></path><rect height="2" width="8" x="7" y="9"></rect><polygon points="7,12 7,14 15,14 15,12 12,12"></polygon><rect height="2" width="8" x="7" y="15"></rect></g></g></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            NHS LFPSE Taxonomy - DRAFT
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Code systems
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="NHS LFPSE Taxonomy - DRAFT" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="NHS LFPSE Taxonomy - DRAFT">
+<svg enable-background="new 0 0 24 24" fill="#000000" height="24px" viewbox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg"><g><rect fill="none" height="24" width="24"></rect></g><g><g></g><g><path d="M17,19.22H5V7h7V5H5C3.9,5,3,5.9,3,7v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-7h-2V19.22z"></path><path d="M19,2h-2v3h-3c0.01,0.01,0,2,0,2h3v2.99c0.01,0.01,2,0,2,0V7h3V5h-3V2z"></path><rect height="2" width="8" x="7" y="9"></rect><polygon points="7,12 7,14 15,14 15,12 12,12"></polygon><rect height="2" width="8" x="7" y="15"></rect></g></g></svg>
+</a>
+    NHS LFPSE Taxonomy - DRAFT
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Introduction
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          V4
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="V4" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          V4
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Code systems
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Code systems
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#yes-no-unknown-codes">2.1 
+    Yes-No-Unknown Codes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#time-of-incident-brackets">2.2 
+    Time of Incident Brackets
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#criteria-which-would-indicate-whether-an-event-is-a-yellow-card-incident">2.3 
+    Criteria which would indicate whether an event is a yellow card incident
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-involvement">2.4 
+    People Involvement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-actions">2.5 
+    People Actions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#devices-involved">2.6 
+    Devices involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#drugs-involved">2.7 
+    Drugs involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#furniture-fittings-involved">2.8 
+    Furniture fittings involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#built-environment-involved">2.9 
+    Built environment involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#blood-and-blood-products-involved">2.10 
+    Blood and blood products involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tissue-and-organs-for-transplant-involved">2.11 
+    Tissue and organs for transplant involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#it-systems-and-software-involved">2.12 
+    IT systems and software involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-action-too-much">2.13 
+    People action too much
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#device-used-unnecessarily">2.14 
+    Device used unnecessarily
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-much-drug">2.15 
+    Too much drug
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-much-blood">2.16 
+    Too much blood
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-much-tissue-and-organs">2.17 
+    Too much tissue and organs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-unavailable">2.18 
+    People unavailable
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-not-enough-action">2.19 
+    People not enough action
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#devices-insufficient">2.20 
+    Devices insufficient
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-little-drug">2.21 
+    Too little drug
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-little-blood">2.22 
+    Too little blood
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#way-insufficient-tissues-or-organs">2.23 
+    Way insufficient tissues or organs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incorrect-people">2.24 
+    Incorrect people
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-wrong-action">2.25 
+    People wrong action
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#device-used-wrongly">2.26 
+    Device used wrongly
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wrong-drug-used">2.27 
+    Wrong drug used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wrong-furniture-or-fittings">2.28 
+    Wrong furniture or fittings
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wrong-blood-or-blood-products">2.29 
+    Wrong blood or blood products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incorrect-tissues-or-organs-for-transplant">2.30 
+    Incorrect tissues or organs for transplant
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#not-correct-people">2.31 
+    Not correct people
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-did-not-do-something">2.32 
+    People did not do something
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#right-drug-not-used">2.33 
+    Right drug not used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#indication-of-how-a-device-was-broken">2.34 
+    Indication of how a device was broken
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#broken-furniture-or-fittings">2.35 
+    Broken furniture or fittings
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#damaged-blood-or-blood-products">2.36 
+    Damaged blood or blood products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#damaged-tissues-or-organs-from-transplant">2.37 
+    Damaged tissues or organs from transplant
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-blood-or-blood-products-not-being-used">2.38 
+    Reasons for blood or blood products not being used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-was-wrong-with-the-blood-or-blood-products">2.39 
+    What was wrong with the blood or blood products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-tissue-or-organs-not-being-used-when-they-should-have-been">2.40 
+    Reasons for tissue or organs not being used when they should have been
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-correct-furniture-and-fittings-not-being-used">2.41 
+    Reasons for correct furniture and fittings not being used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#processes-involved-in-what-went-wrong">2.42 
+    Processes involved in what went wrong
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-reasons-for-medication-not-being-prescribed-or-given-in-the-right-way">2.43 
+    The reasons for medication not being prescribed or given in the right way
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-was-the-problem-with-medication-or-its-packaging">2.44 
+    What was the problem with medication or its packaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#agent-type">2.45 
+    Agent Type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#furniture-and-fittings">2.46 
+    Furniture and Fittings
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#human-agents">2.47 
+    Human Agents
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-type-of-outcome-being-reported">2.48 
+    The type of outcome being reported
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#healthcare-process">2.49 
+    Healthcare Process
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-themes">2.50 
+    Risk Themes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#service-type">2.51 
+    Service Type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-timeframes">2.52 
+    Risk Timeframes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reporter-relationship-to-event">2.53 
+    Reporter relationship to event
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#detection-factors">2.54 
+    Detection Factors
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#detection-points">2.55 
+    Detection points
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#worry-scale">2.56 
+    Worry Scale
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#list-of-safety-challenges">2.57 
+    List of safety challenges
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#level-of-physical-harm">2.58 
+    Level of Physical Harm
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#level-of-psychological-harm">2.59 
+    Level of Psychological Harm
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#age-brackets">2.60 
+    Age Brackets
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-gender-of-a-person-used-for-administrative-purposes">2.61 
+    The gender of a person used for administrative purposes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strength-of-association">2.62 
+    Strength of Association
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ods-codes">2.63 
+    ODS Codes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incident-location">2.64 
+    Incident Location
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#specialty">2.65 
+    Specialty
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-location">2.66 
+    Risk location
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#location">2.67 
+    Location
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reporter-type">2.68 
+    Reporter Type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#staff-type">2.69 
+    Staff type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-recording-the-event-anonymously">2.70 
+    Reasons for recording the event anonymously
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#device-type">2.71 
+    Device Type
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../taxonomy/">
+        Taxonomy
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3">
+          Code systems
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Code systems" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Code systems
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="device-type/">
+        Device Type
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="ods-codes/">
+        ODS Codes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="specialty/">
+        Specialty
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          V5
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="V5" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          V5
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../v5/code-systems/">
+        Code systems
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../v5/taxonomy/">
+        Taxonomy
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3">
+          Code systems
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Code systems" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+          Code systems
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../v5/code-systems/device-type/">
+        Device Type
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../v5/code-systems/ods-codes/">
+        ODS Codes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../v5/code-systems/specialty/">
+        Specialty
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#yes-no-unknown-codes">2.1 
+    Yes-No-Unknown Codes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#time-of-incident-brackets">2.2 
+    Time of Incident Brackets
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#criteria-which-would-indicate-whether-an-event-is-a-yellow-card-incident">2.3 
+    Criteria which would indicate whether an event is a yellow card incident
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-involvement">2.4 
+    People Involvement
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-actions">2.5 
+    People Actions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#devices-involved">2.6 
+    Devices involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#drugs-involved">2.7 
+    Drugs involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#furniture-fittings-involved">2.8 
+    Furniture fittings involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#built-environment-involved">2.9 
+    Built environment involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#blood-and-blood-products-involved">2.10 
+    Blood and blood products involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tissue-and-organs-for-transplant-involved">2.11 
+    Tissue and organs for transplant involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#it-systems-and-software-involved">2.12 
+    IT systems and software involved
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-action-too-much">2.13 
+    People action too much
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#device-used-unnecessarily">2.14 
+    Device used unnecessarily
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-much-drug">2.15 
+    Too much drug
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-much-blood">2.16 
+    Too much blood
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-much-tissue-and-organs">2.17 
+    Too much tissue and organs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-unavailable">2.18 
+    People unavailable
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-not-enough-action">2.19 
+    People not enough action
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#devices-insufficient">2.20 
+    Devices insufficient
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-little-drug">2.21 
+    Too little drug
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#too-little-blood">2.22 
+    Too little blood
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#way-insufficient-tissues-or-organs">2.23 
+    Way insufficient tissues or organs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incorrect-people">2.24 
+    Incorrect people
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-wrong-action">2.25 
+    People wrong action
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#device-used-wrongly">2.26 
+    Device used wrongly
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wrong-drug-used">2.27 
+    Wrong drug used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wrong-furniture-or-fittings">2.28 
+    Wrong furniture or fittings
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wrong-blood-or-blood-products">2.29 
+    Wrong blood or blood products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incorrect-tissues-or-organs-for-transplant">2.30 
+    Incorrect tissues or organs for transplant
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#not-correct-people">2.31 
+    Not correct people
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#people-did-not-do-something">2.32 
+    People did not do something
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#right-drug-not-used">2.33 
+    Right drug not used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#indication-of-how-a-device-was-broken">2.34 
+    Indication of how a device was broken
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#broken-furniture-or-fittings">2.35 
+    Broken furniture or fittings
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#damaged-blood-or-blood-products">2.36 
+    Damaged blood or blood products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#damaged-tissues-or-organs-from-transplant">2.37 
+    Damaged tissues or organs from transplant
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-blood-or-blood-products-not-being-used">2.38 
+    Reasons for blood or blood products not being used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-was-wrong-with-the-blood-or-blood-products">2.39 
+    What was wrong with the blood or blood products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-tissue-or-organs-not-being-used-when-they-should-have-been">2.40 
+    Reasons for tissue or organs not being used when they should have been
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-correct-furniture-and-fittings-not-being-used">2.41 
+    Reasons for correct furniture and fittings not being used
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#processes-involved-in-what-went-wrong">2.42 
+    Processes involved in what went wrong
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-reasons-for-medication-not-being-prescribed-or-given-in-the-right-way">2.43 
+    The reasons for medication not being prescribed or given in the right way
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-was-the-problem-with-medication-or-its-packaging">2.44 
+    What was the problem with medication or its packaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#agent-type">2.45 
+    Agent Type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#furniture-and-fittings">2.46 
+    Furniture and Fittings
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#human-agents">2.47 
+    Human Agents
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-type-of-outcome-being-reported">2.48 
+    The type of outcome being reported
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#healthcare-process">2.49 
+    Healthcare Process
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-themes">2.50 
+    Risk Themes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#service-type">2.51 
+    Service Type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-timeframes">2.52 
+    Risk Timeframes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reporter-relationship-to-event">2.53 
+    Reporter relationship to event
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#detection-factors">2.54 
+    Detection Factors
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#detection-points">2.55 
+    Detection points
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#worry-scale">2.56 
+    Worry Scale
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#list-of-safety-challenges">2.57 
+    List of safety challenges
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#level-of-physical-harm">2.58 
+    Level of Physical Harm
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#level-of-psychological-harm">2.59 
+    Level of Psychological Harm
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#age-brackets">2.60 
+    Age Brackets
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-gender-of-a-person-used-for-administrative-purposes">2.61 
+    The gender of a person used for administrative purposes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strength-of-association">2.62 
+    Strength of Association
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ods-codes">2.63 
+    ODS Codes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incident-location">2.64 
+    Incident Location
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#specialty">2.65 
+    Specialty
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-location">2.66 
+    Risk location
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#location">2.67 
+    Location
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reporter-type">2.68 
+    Reporter Type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#staff-type">2.69 
+    Staff type
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reasons-for-recording-the-event-anonymously">2.70 
+    Reasons for recording the event anonymously
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#device-type">2.71 
+    Device Type
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1><span class="enumerate-headings-plugin enumerate-heading-plugin">2.</span> Code systems</h1>
+<p>Code system document for AdverseEvent v4</p>
+<h2 id="yes-no-unknown-codes"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.1</span> Yes-No-Unknown Codes</h2>
+<ul>
+<li>
+<p>Id: yes-no-unknown-codes-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>y</code></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>n</code></td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>u</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="time-of-incident-brackets"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.2</span> Time of Incident Brackets</h2>
+<ul>
+<li>
+<p>Id: time-of-incident-brackets-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Day shift</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Night shift</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Morning handover</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Evening handover</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>None of the above</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="criteria-which-would-indicate-whether-an-event-is-a-yellow-card-incident"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.3</span> Criteria which would indicate whether an event is a yellow card incident</h2>
+<ul>
+<li>
+<p>Id: yellow-card-criteria-4</p>
+</li>
+<li>
+<p>Count: 3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Side effects (also known as Adverse Drug Reactions or ADRs)</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Defective or counterfeit medicines</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Defective or counterfeit medical devices</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Poor packaging or design of medicines that might lead to errors</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Poor packaging or design of medical devices that might lead to errors</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>None of the above</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>I don't know</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="people-involvement"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.4</span> People Involvement</h2>
+<ul>
+<li>
+<p>Id: people-involvement-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>There were too many people involved</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>There were people absent who were required</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The wrong skill mix was involved</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="people-actions"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.5</span> People Actions</h2>
+<ul>
+<li>
+<p>Id: people-actions-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>People did too much of something</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>People did too little of something</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>People did one thing when they meant to do another</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>People did not do something they should have</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="devices-involved"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.6</span> Devices involved</h2>
+<ul>
+<li>
+<p>Id: devices-involved-4</p>
+</li>
+<li>
+<p>Count: 2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The device was used when it should not have been</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The device was not used when it should have been</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The device was used incorrectly</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The device was available but broken, not fit for use or didn't perform as expected</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The device was involved in an accident, trip or collision</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="drugs-involved"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.7</span> Drugs involved</h2>
+<ul>
+<li>
+<p>Id: drugs-involved-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too much medication was prescribed/dispensed/administered</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Too little medication was prescribed/dispensed/administered</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The medication was prescribed/dispensed/administered incorrectly</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Something was wrong with the medication and/or it's packaging</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="furniture-fittings-involved"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.8</span> Furniture fittings involved</h2>
+<ul>
+<li>
+<p>Id: furniture-fittings-involved-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Furniture or fittings were used or present when they should not have been</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Furniture or fittings were not used or present when they should have been</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The wrong furniture or fittings were used or present</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Furniture or fittings were broken or not fit for purpose</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="built-environment-involved"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.9</span> Built environment involved</h2>
+<ul>
+<li>
+<p>Id: built-environment-involved-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Unnecessary elements of the built environment were used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The required elements of the built environment were available but not used when they should have been</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The wrong elements of the built environment were used in place of the correct ones</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Required elements of the built environment were unavailable, unfit for use, or out of order</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="blood-and-blood-products-involved"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.10</span> Blood and blood products involved</h2>
+<ul>
+<li>
+<p>Id: blood-and-blood-products-involved-4</p>
+</li>
+<li>
+<p>Count: 2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too great an amount of blood or blood products were used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Too small an amount of blood or blood products were used</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The wrong blood or blood products were used in place of the correct ones</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Blood or blood products were not used when they should have been</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Blood or blood products were available but damaged or not fit for use</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tissue-and-organs-for-transplant-involved"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.11</span> Tissue and organs for transplant involved</h2>
+<ul>
+<li>
+<p>Id: tissue-and-organs-for-transplant-involved-4</p>
+</li>
+<li>
+<p>Count: 2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too much/many tissues or organs for transplant were used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Too few/little tissues or organs for transplant were used</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The wrong tissues or organs for transplant were used</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Tissues or organs for transplant were not used when they should have been</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Tissues or organs for transplant were available but damaged or unfit for use</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="it-systems-and-software-involved"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.12</span> IT systems and software involved</h2>
+<ul>
+<li>
+<p>Id: it-systems-and-software-involved-4</p>
+</li>
+<li>
+<p>Count: 2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The wrong IT system or software was used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>IT systems or software were used in a way they were not designed to be</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>IT systems or software were not used when they should have been</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>IT systems or software were faulty/malfunctioned</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>IT systems or software was not fit for purpose/did not perform adequately</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="people-action-too-much"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.13</span> People action too much</h2>
+<ul>
+<li>
+<p>Id: people-action-too-much-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Something was done too many times/too frequently</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Something was done too quickly</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Something was done for too long</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Something was done too early/soon</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Something was done with too much force</td>
+</tr>
+</tbody>
+</table>
+<h2 id="device-used-unnecessarily"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.14</span> Device used unnecessarily</h2>
+<ul>
+<li>
+<p>Id: device-used-unnecessarily-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too many devices were used/The device was not required</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The device was used too soon</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The device was used for too long</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The device was accidentally retained</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The device was overused or used on too high a setting</td>
+</tr>
+</tbody>
+</table>
+<h2 id="too-much-drug"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.15</span> Too much drug</h2>
+<ul>
+<li>
+<p>Id: too-much-drug-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The prescribed/dispensed/administered dosage was too high</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The medication was prescribed/dispensed/administered too early</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The medication was prescribed/dispensed/administered for too long a duration</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The medication was prescribed/dispensed/administered at too fast a rate</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The medication was prescribed/dispensed/administered too frequently</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>The medication was prescribed/dispensed/administered when it should not have been</td>
+</tr>
+</tbody>
+</table>
+<h2 id="too-much-blood"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.16</span> Too much blood</h2>
+<ul>
+<li>
+<p>Id: too-much-blood-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too great a quantity of a blood product was used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Blood or blood products were used when they were not required</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Blood or blood products were used too soon</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Blood or blood products were used after they should have been withdrawn</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Blood or blood products were given too quickly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="too-much-tissue-and-organs"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.17</span> Too much tissue and organs</h2>
+<ul>
+<li>
+<p>Id: too-much-tissue-and-organs-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too great a quantity or number of tissues or organs for transplant were used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Tissues or organs for transplant were used when they were not required</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Tissues or organs for transplant were used too soon</td>
+</tr>
+</tbody>
+</table>
+<h2 id="people-unavailable"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.18</span> People unavailable</h2>
+<ul>
+<li>
+<p>Id: people-unavailable-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>People's arrival was delayed</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>People were called away/had to leave too soon</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>There was a shortage of available people</td>
+</tr>
+</tbody>
+</table>
+<h2 id="people-not-enough-action"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.19</span> People not enough action</h2>
+<ul>
+<li>
+<p>Id: people-not-enough-action-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Something was done too few times/not frequently enough</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Something was done too slowly</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Something was done too late</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Something was stopped too early</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Something was done with insufficient force</td>
+</tr>
+</tbody>
+</table>
+<h2 id="devices-insufficient"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.20</span> Devices insufficient</h2>
+<ul>
+<li>
+<p>Id: devices-insufficient-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too few devices were used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>There was a delay in using the device</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The devices was not used for long enough</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The device was not available</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The device was underused or used on too low a setting</td>
+</tr>
+</tbody>
+</table>
+<h2 id="too-little-drug"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.21</span> Too little drug</h2>
+<ul>
+<li>
+<p>Id: too-little-drug-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The prescribed/dispensed/administered dosage was too low</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The medication was prescribed/dispensed/administered too late</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The medication was prescribed/dispensed/administered for too short a duration</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The medication was prescribed/dispensed/administered at too slow a rate</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The medication was not prescribed/dispensed/administered frequently enough</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>The prescribed/dispensed/administered medication was omitted</td>
+</tr>
+</tbody>
+</table>
+<h2 id="too-little-blood"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.22</span> Too little blood</h2>
+<ul>
+<li>
+<p>Id: too-little-blood-4</p>
+</li>
+<li>
+<p>Count: -1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too little of a blood product was used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>There was a delay in using blood or blood products</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Blood or blood products were not given for long enough</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Blood or blood products were given too slowly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="way-insufficient-tissues-or-organs"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.23</span> Way insufficient tissues or organs</h2>
+<ul>
+<li>
+<p>Id: way-insufficient-tissues-or-organs-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Too little a quantity or number of tissues or organs for transplant were used</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>There was a delay in using tissues or organs for transplant</td>
+</tr>
+</tbody>
+</table>
+<h2 id="incorrect-people"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.24</span> Incorrect people</h2>
+<ul>
+<li>
+<p>Id: incorrect-people-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>People were involved who did not have the right skills</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The wrong person was involved</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>People who were not needed were involved</td>
+</tr>
+</tbody>
+</table>
+<h2 id="people-wrong-action"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.25</span> People wrong action</h2>
+<ul>
+<li>
+<p>Id: people-wrong-action-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>One action was taken in place of another</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>A wrong action was taken as well as the right one</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The right action was only partially completed</td>
+</tr>
+</tbody>
+</table>
+<h2 id="device-used-wrongly"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.26</span> Device used wrongly</h2>
+<ul>
+<li>
+<p>Id: device-used-wrongly-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The wrong device was used instead of the correct device</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The wrong device was used alongside the correct device</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Only part of the correct device was used</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The device was used off-license or for an unintended purpose</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The device was not used as per instructions for use or was set up incorrectly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="wrong-drug-used"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.27</span> Wrong drug used</h2>
+<ul>
+<li>
+<p>Id: wrong-drug-used-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The wrong drug was used instead of the correct drug</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The wrong drug was used as well as the correct drug</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Only part of the correct drug was given</td>
+</tr>
+</tbody>
+</table>
+<h2 id="wrong-furniture-or-fittings"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.28</span> Wrong furniture or fittings</h2>
+<ul>
+<li>
+<p>Id: wrong-furniture-or-fittings-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The incorrect furniture or fittings were used in place of the correct item</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Incorrect furniture or fittings were used as well as the correct item</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Only a part of the right furniture or fittings were used</td>
+</tr>
+</tbody>
+</table>
+<h2 id="wrong-blood-or-blood-products"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.29</span> Wrong blood or blood products</h2>
+<ul>
+<li>
+<p>Id: wrong-blood-or-blood-products-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The wrong blood or blood products were used instead of the correct ones</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The wrong blood or blood products were used alongside the correct ones</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Only part of the correct blood or blood products were used</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The blood or blood products was used for an unintended purpose</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The blood or blood products were not used as per instructions for use or were set up/given incorrectly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="incorrect-tissues-or-organs-for-transplant"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.30</span> Incorrect tissues or organs for transplant</h2>
+<ul>
+<li>
+<p>Id: incorrect-tissues-or-organs-for-transplant-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The wrong tissues or organs for transplant were used instead of the correct ones</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The wrong tissues or organs for transplant were used alongside the correct ones</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Only part of the correct tissues or organs for transplant were used</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Tissues or organs for transplant were used for an unintended purpose</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Tissues or organs for transplant were not used as per instructions for use</td>
+</tr>
+</tbody>
+</table>
+<h2 id="not-correct-people"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.31</span> Not correct people</h2>
+<ul>
+<li>
+<p>Id: not-correct-people-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The right person was not called</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The right person was called but did not attend</td>
+</tr>
+</tbody>
+</table>
+<h2 id="people-did-not-do-something"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.32</span> People did not do something</h2>
+<ul>
+<li>
+<p>Id: people-did-not-do-something-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>People did not know the right thing to do</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>People knew what to do but it did not happen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="right-drug-not-used"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.33</span> Right drug not used</h2>
+<ul>
+<li>
+<p>Id: right-drug-not-used-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Drug omitted</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Drug dose missed</td>
+</tr>
+</tbody>
+</table>
+<h2 id="indication-of-how-a-device-was-broken"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.34</span> Indication of how a device was broken</h2>
+<ul>
+<li>
+<p>Id: device-broken-4</p>
+</li>
+<li>
+<p>Count: 5</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The packaging was damaged making it unfit for use</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The device was broken or damaged before use</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The device broke or was damaged in use</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The device was dirty or unsterile</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The device was not stored correctly</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>The device was out of date</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>There was no power supply for the device/the battery was not charged/the device ran out of power during use</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>The device had no connectivity/wifi connection</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>The device was used as per guidance but did not perform as expected and/or caused unexpected consequences</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>There were no component parts/consumables available that must be used with the device</td>
+</tr>
+</tbody>
+</table>
+<h2 id="broken-furniture-or-fittings"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.35</span> Broken furniture or fittings</h2>
+<ul>
+<li>
+<p>Id: broken-furniture-or-fittings-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The furniture or fittings were broken or damaged before use</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The furniture or fittings broke or were damaged in use</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The furniture or fittings were dirty rendering them unusable</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The furniture or fittings were not stored correctly</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The furniture or fittings required electricity/power and this was not available</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>The furniture or fittings were used as per guidance but did not perform as expected</td>
+</tr>
+</tbody>
+</table>
+<h2 id="damaged-blood-or-blood-products"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.36</span> Damaged blood or blood products</h2>
+<ul>
+<li>
+<p>Id: damaged-blood-or-blood-products-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Packaging damaged making blood or blood product unfit for use</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Blood or blood product found to be damaged/of insufficient quality before use.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="damaged-tissues-or-organs-from-transplant"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.37</span> Damaged tissues or organs from transplant</h2>
+<ul>
+<li>
+<p>Id: damaged-tissues-or-organs-from-transplant-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The packaging/label was damaged/unclear making them unfit for use</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The tissues or organs for transplant were contaminated</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The tissues or organs for transplant had not been not stored correctly</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The tissues or organs for transplant were damaged or of unusable quality</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The tissues or organs for transplant were used as per guidance but did not perform as expected</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>There were no consumables available that were required to transplant tissues or organs</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reasons-for-blood-or-blood-products-not-being-used"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.38</span> Reasons for blood or blood products not being used</h2>
+<ul>
+<li>
+<p>Id: blood-not-used-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The required blood or blood products were not available</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The need for blood or blood products was not identified</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-was-wrong-with-the-blood-or-blood-products"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.39</span> What was wrong with the blood or blood products</h2>
+<ul>
+<li>
+<p>Id: blood-products-problem-4</p>
+</li>
+<li>
+<p>Count: 2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The packaging/label was damaged/unclear making it unfit for use</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The blood or blood products were contaminated</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The blood or blood products were not stored correctly</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The blood or blood products were damaged or of unusable quality</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The blood or blood products were out of date</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>The blood or blood products were used as per guidance but did not perform as expected</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>There were no consumables available that must be used with the blood or blood products</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reasons-for-tissue-or-organs-not-being-used-when-they-should-have-been"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.40</span> Reasons for tissue or organs not being used when they should have been</h2>
+<ul>
+<li>
+<p>Id: tissue-organs-not-used-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The required tissues or organs for transplant were not available</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The need for tissues or organs for transplant was not identified</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reasons-for-correct-furniture-and-fittings-not-being-used"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.41</span> Reasons for correct furniture and fittings not being used</h2>
+<ul>
+<li>
+<p>Id: furniture-fittings-not-used-4</p>
+</li>
+<li>
+<p>Count: -3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The correct furniture or fittings were not available</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The need for furniture or fittings was not identified</td>
+</tr>
+</tbody>
+</table>
+<h2 id="processes-involved-in-what-went-wrong"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.42</span> Processes involved in what went wrong</h2>
+<ul>
+<li>
+<p>Id: involved-processes-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Prescription</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Dispensing</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Administering</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-reasons-for-medication-not-being-prescribed-or-given-in-the-right-way"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.43</span> The reasons for medication not being prescribed or given in the right way</h2>
+<ul>
+<li>
+<p>Id: medication-administered-incorrectly-4</p>
+</li>
+<li>
+<p>Count: 3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The medication was prescribed/dispensed/administered via the wrong route</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The formulation/preparation of the medication was incorrectly prescribed/dispensed/administered</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The wrong medication was prescribed/dispensed/administered</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The medication was contraindicated</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The patient had a known allergy to the medication</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>The patient was not given appropriate advice and counselling</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>The medication was given using the wrong technique/method</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>The medication was prescribed/dispensed/administered to the wrong patient</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-was-the-problem-with-medication-or-its-packaging"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.44</span> What was the problem with medication or its packaging</h2>
+<ul>
+<li>
+<p>Id: problem-medication-or-packaging-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The medication had been stored incorrectly/was unfit for use</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>The medication was out of date</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The medication did not have the appropriate patient information leaflet</td>
+</tr>
+</tbody>
+</table>
+<h2 id="agent-type"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.45</span> Agent Type</h2>
+<ul>
+<li>
+<p>Id: agent-type-4</p>
+</li>
+<li>
+<p>Count: 3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>4</code></td>
+<td>Medications</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Devices</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>IT Systems or Software</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Built Environment</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Furniture or Fittings</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Blood or Blood products</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Tissues or Organs for transplant</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<h2 id="furniture-and-fittings"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.46</span> Furniture and Fittings</h2>
+<ul>
+<li>
+<p>Id: furniture-and-fittings-4</p>
+</li>
+<li>
+<p>Count: 6</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Carpets and rugs</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Chairs and sofas</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Climate control equipment and switches</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Decor, pictures and posters</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Doors and handles</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Light fittings and switches</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Personal belongings and ornaments</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Storage units and furniture</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>Tables</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>Window dressings, curtains and blinds</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="human-agents"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.47</span> Human Agents</h2>
+<ul>
+<li>
+<p>Id: human-agents-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Healthcare staff</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Other patient(s)</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Family member or carer</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>I don't know</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-type-of-outcome-being-reported"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.48</span> The type of outcome being reported</h2>
+<ul>
+<li>
+<p>Id: outcome-type-4</p>
+</li>
+<li>
+<p>Count: 4</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>A death/stillbirth/intra-uterine death that you don�t currently think is related to healthcare action or omission in any way, but requires fact-finding or notification to CQC</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Unplanned reattendance or readmission</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Unplanned admission to ITU, HDU, SCBU or NICU</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Return to theatre</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>Emergency/unplanned caesarean</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Crash call</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Safeguarding that does not involve any suspicion or acts of omission or commissions by healthcare staff, but that does require notification to adult or child protection services</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>Postpartum haemorrhage of concern</td>
+</tr>
+<tr>
+<td><code>15</code></td>
+<td>COVID-19 related issue</td>
+</tr>
+</tbody>
+</table>
+<h2 id="healthcare-process"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.49</span> Healthcare Process</h2>
+<ul>
+<li>
+<p>Id: healthcare-process-4</p>
+</li>
+<li>
+<p>Count: 7</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>The patient was accessing healthcare, treatment, or advice</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Admission or acceptance into healthcare</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Assessment, evaluation, examination, history-taking, investigation, testing, measurement, surveillance or screening</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Diagnosis or decision-making</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Planning or prescribing</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Intervention, treatment, care provision, dispensing, selection or administering</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Evaluation, review, monitoring or follow-up</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Referral, escalation or change to a different service or setting</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>Discharge or ending a type of healthcare</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>Self-care or safety-netting</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>Not a direct part of healthcare delivery</td>
+</tr>
+<tr>
+<td><code>12</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="risk-themes"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.50</span> Risk Themes</h2>
+<ul>
+<li>
+<p>Id: risk-themes-4</p>
+</li>
+<li>
+<p>Count: 3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Staffing, workload, capacity or capability of services</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Medical devices, including supply issues</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Medication, including supply issues</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Non-medical devices/equipment, including supply issues</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Healthcare buildings, fixtures and fittings</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Information Technology or transfer of information</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Problems with administrative, governance or managerial systems and processes</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="service-type"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.51</span> Service Type</h2>
+<ul>
+<li>
+<p>Id: service-type-4</p>
+</li>
+<li>
+<p>Count: 10</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Acute hospital services</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>GP, walk-in service or NHS 111</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Ambulance and 999</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Mental health services (inpatient or community)</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Community hospital</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Community therapy</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Community general/district nursing and therapy</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Prison healthcare</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>Community pharmacy</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>Community optometry</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>Community dentistry</td>
+</tr>
+<tr>
+<td><code>12</code></td>
+<td>Residential/care home</td>
+</tr>
+<tr>
+<td><code>13</code></td>
+<td>Social care</td>
+</tr>
+<tr>
+<td><code>14</code></td>
+<td>LD and Autism services</td>
+</tr>
+<tr>
+<td><code>15</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="risk-timeframes"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.52</span> Risk Timeframes</h2>
+<ul>
+<li>
+<p>Id: risk-timeframes-4</p>
+</li>
+<li>
+<p>Count: -1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Months</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Years</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>I don't know</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reporter-relationship-to-event"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.53</span> Reporter relationship to event</h2>
+<ul>
+<li>
+<p>Id: reporter-relationship-to-event-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>I witnessed it but was not directly involved in the patient's care</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>I was told about it</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>I found it in a case note review or audit</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>I was helping provide the care when it happened</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>I don't want to say</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detection-factors"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.54</span> Detection Factors</h2>
+<ul>
+<li>
+<p>Id: detection-factors-4</p>
+</li>
+<li>
+<p>Count: 23</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>By checklist</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Via clinical assessment/observations - staff identifying a change in patient's condition</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Via a test/investigation - staff identifying a change in patient's condition</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Via general observation - by staff (heard noise, found patient on floor etc)</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Via general observation - by the patient/carer/relative/friend</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Via general observation - by another patient</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Via a cry for help - from patient/carer/relative/friend/other patient</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>By a subjective feeling/symptom reported by the patient</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>By notification from an external agency (e.g. Police, Coroner, Media)</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>Via Care-staff walkaround</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>Via Management walkaround</td>
+</tr>
+<tr>
+<td><code>12</code></td>
+<td>By a monitor</td>
+</tr>
+<tr>
+<td><code>13</code></td>
+<td>By an alarm</td>
+</tr>
+<tr>
+<td><code>14</code></td>
+<td>By patient buzzer / call bell system</td>
+</tr>
+<tr>
+<td><code>15</code></td>
+<td>By a change in a system or machine function</td>
+</tr>
+<tr>
+<td><code>16</code></td>
+<td>By a change in the environment</td>
+</tr>
+<tr>
+<td><code>17</code></td>
+<td>By a count (e.g. Swab count, head count etc)</td>
+</tr>
+<tr>
+<td><code>18</code></td>
+<td>By a query</td>
+</tr>
+<tr>
+<td><code>19</code></td>
+<td>By an associated incident (e.g. Patient misidentification)</td>
+</tr>
+<tr>
+<td><code>20</code></td>
+<td>By audit</td>
+</tr>
+<tr>
+<td><code>21</code></td>
+<td>By a review</td>
+</tr>
+<tr>
+<td><code>22</code></td>
+<td>By Incident trend</td>
+</tr>
+<tr>
+<td><code>23</code></td>
+<td>By locally shared learning</td>
+</tr>
+<tr>
+<td><code>24</code></td>
+<td>By nationally shared learning</td>
+</tr>
+<tr>
+<td><code>25</code></td>
+<td>From research / evidence</td>
+</tr>
+<tr>
+<td><code>26</code></td>
+<td>By complaint or claim</td>
+</tr>
+<tr>
+<td><code>27</code></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><code>28</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detection-points"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.55</span> Detection points</h2>
+<ul>
+<li>
+<p>Id: detection-points-4</p>
+</li>
+<li>
+<p>Count: 3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Proactive risk assessment undertaken during design of a new service or significant redesign of an existing service</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>At pre-admission patient assessment</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Immediately prior to care or treatment</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>During direct care or treatment</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>During continued care by third party agency</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>After care or treatment has ended</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>I don't know</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="worry-scale"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.56</span> Worry Scale</h2>
+<ul>
+<li>
+<p>Id: worry-scale-4</p>
+</li>
+<li>
+<p>Count: -1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>5</code></td>
+<td>Very concerned</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Fairly concerned</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Not very concerned</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>Not at all concerned</td>
+</tr>
+</tbody>
+</table>
+<h2 id="list-of-safety-challenges"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.57</span> List of safety challenges</h2>
+<ul>
+<li>
+<p>Id: safety-challenges-4</p>
+</li>
+<li>
+<p>Count: 1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Pressure ulcers</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Falls</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Self harm</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Radiotherapy incident</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Healthcare Acquired Infection</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<h2 id="level-of-physical-harm"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.58</span> Level of Physical Harm</h2>
+<ul>
+<li>
+<p>Id: level-of-physical-harm-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>5</code></td>
+<td>No physical harm</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Low physical harm</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Moderate physical harm</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Severe physical harm</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>Fatal</td>
+</tr>
+</tbody>
+</table>
+<h2 id="level-of-psychological-harm"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.59</span> Level of Psychological Harm</h2>
+<ul>
+<li>
+<p>Id: level-of-psychological-harm-4</p>
+</li>
+<li>
+<p>Count: -1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>4</code></td>
+<td>No psychological harm</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Low psychological harm</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Moderate psychological harm</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>Severe psychological harm</td>
+</tr>
+</tbody>
+</table>
+<h2 id="age-brackets"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.60</span> Age Brackets</h2>
+<ul>
+<li>
+<p>Id: age-brackets-4</p>
+</li>
+<li>
+<p>Count: 7</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>0-14 days</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>15-28 days</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>1-11 months</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>1-4 years</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>5-9 years</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>10-15 years</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>16 and 17 years</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>18-25 years</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>26-45 years</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>46-65 years</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>66-85 years</td>
+</tr>
+<tr>
+<td><code>12</code></td>
+<td>85+ years</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-gender-of-a-person-used-for-administrative-purposes"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.61</span> The gender of a person used for administrative purposes</h2>
+<ul>
+<li>
+<p>Id: gender-4</p>
+</li>
+<li>
+<p>Count: -1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Female</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Male</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>I don't know</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Withheld, not specified or other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="strength-of-association"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.62</span> Strength of Association</h2>
+<ul>
+<li>
+<p>Id: strength-of-association-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>6</code></td>
+<td>The incident caused the outcome</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>The incident probably affected the outcome</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>The incident possibly affected the outcome</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The incident was not related to the outcome</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ods-codes"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.63</span> ODS Codes</h2>
+<ul>
+<li>
+<p>Id: ods-codes-4</p>
+</li>
+<li>
+<p>Count: 16491</p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Too many codes to display</p>
+<p>For the full list go to <a href="/v4/code-systems/ods-codes">ods-codes-4</a></p>
+</div>
+<h2 id="incident-location"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.64</span> Incident Location</h2>
+<ul>
+<li>
+<p>Id: incident-location-4</p>
+</li>
+<li>
+<p>Count: 4</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Public place</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Private home</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Care home</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Hospital</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Another sort of healthcare building</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Ambulance or other healthcare vehicle</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Prison</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>No specific location</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="specialty"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.65</span> Specialty</h2>
+<ul>
+<li>
+<p>Id: specialty-4</p>
+</li>
+<li>
+<p>Count: 96</p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Too many codes to display</p>
+<p>For the full list go to <a href="/v4/code-systems/specialty">specialty-4</a></p>
+</div>
+<h2 id="risk-location"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.66</span> Risk location</h2>
+<ul>
+<li>
+<p>Id: risk-location-4</p>
+</li>
+<li>
+<p>Count: -1</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>My organisation</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>A different organisation</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>The risk is widespread</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="location"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.67</span> Location</h2>
+<ul>
+<li>
+<p>Id: location-4</p>
+</li>
+<li>
+<p>Count: -2</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>My organisation</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>A different organisation</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>I don't know</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reporter-type"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.68</span> Reporter Type</h2>
+<ul>
+<li>
+<p>Id: reporter-type-4</p>
+</li>
+<li>
+<p>Count: 0</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>I am the affected patient</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>I am a friend/carer/relative of the patient</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>I am a member of staff</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>I am none of the above (please give details)</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="staff-type"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.69</span> Staff type</h2>
+<ul>
+<li>
+<p>Id: staff-type-4</p>
+</li>
+<li>
+<p>Count: 4</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Additional clinical services staff, including ambulance services and pharmacy</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>Additional professional, scientific and technical staff, including social care</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>Allied health professional</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>Doctor or dentist</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>Nurse or midwife</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>Administrative and clerical staff</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>Estates and ancillary staff</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Supplementary roles, including voluntary services</td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reasons-for-recording-the-event-anonymously"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.70</span> Reasons for recording the event anonymously</h2>
+<ul>
+<li>
+<p>Id: anonymity-reasons-4</p>
+</li>
+<li>
+<p>Count: 3</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Display</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>To save time</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>I forgot my account details</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>I don't see any benefit in signing in to my account</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>I am concerned that what I say might be used against me by my organisation or employer</td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>I am concerned that what I say might be used against me by another organisation</td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>I am concerned that what I say might negatively affect my reputation or career</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>I am concerned that colleagues may find out what I have said</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>Other</td>
+</tr>
+</tbody>
+</table>
+<h2 id="device-type"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.71</span> Device Type</h2>
+<ul>
+<li>
+<p>Id: device-type-4</p>
+</li>
+<li>
+<p>Count: 83</p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Too many codes to display</p>
+<p>For the full list go to <a href="/v4/code-systems/device-type">device-type-4</a></p>
+</div>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Introduction" class="md-footer__link md-footer__link--prev" href="../.." rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Introduction
+            </div>
+</div>
+</a>
+<a aria-label="Next: Taxonomy" class="md-footer__link md-footer__link--next" href="../taxonomy/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Taxonomy
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-footer-copyright">
+<div class="md-footer-copyright__highlight">
+            Copyright © 2023
+          </div>
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+            Material for MkDocs
+          </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+<script src="../../assets/javascripts/bundle.1e84347e.min.js"></script>
+<script src="../../js/print-site.js"></script>
+</body>
+</html>
